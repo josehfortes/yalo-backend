@@ -11,7 +11,6 @@ router.get('/:start/:size', async (req, res) => {
     res.json({ posts })
   } catch (err) {
     res.status(500).send()
-    //res.statusCode(500).json(err)
   }
 })
 
